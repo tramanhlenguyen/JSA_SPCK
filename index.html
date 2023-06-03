@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="spck.css">
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BILLBOARD API</title>
 </head>
 <body>
@@ -12,32 +13,96 @@
     <div class="header">
         <div class="header-part header-part1">
             <a class="header-part-e header-part-e1">
+            </a>
+            <a class="header-part-e2">
                 BILLBOARD API 
             </a>
-            <a class="header-part-e header-part-e2">
-                LOGIN
-            </a>
-            <a class="header-part-e header-part-e3">
-                SUBSCRIBE
-            </a>
+            <div class="header-part-e header-part-e3">
+                <button class="button">LOGIN</button>
+                <button class="button">SUBSCRIBE</button>
+            </div>
         </div>
         <div class="header-part header-part2">
-            <a class="header-part-f"></a>
-            <a class="header-part-f"></a>
-            <a class="header-part-f"></a>
-            <a class="header-part-f"></a>
-            <a class="header-part-f"></a>
-            <a class="header-part-f"></a>
+            <a class="fa-solid fa-magnifying-glass header-part-f header-part-f1"></a>
+            <a class="header-part-f">CHARTS</a>
+            <a class="header-part-f">MUSIC</a>
+            <a class="header-part-f">CULTURE</a>
+            <a class="header-part-f">MEDIA</a>
+            <a class="header-part-f">BUSINESS</a>
         </div>
     </div>
-    <!-- CHART100 -->
-    <div class="chart100"></div>
-    <!-- 2CHARTS -->
-    <div class="2Charts"></div>
-    <!-- ARTIST -->
-    <div class="artist"></div>
+    <!-- BACKGROUND -->
+    <div class="background">
+        <!-- CHART100 -->
+        <h class="title title1">BILLBOARD CHARTS</h>
+        <div class="chart100">
+            <h class="chart100-part1">Billboard Chart 100</h>
+            <div class="chart100-part2"></div>
+            <div class="chart100-part3"></div>
+            <button class="chart100-part4">
+                VIEW CHART
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <!-- 2CHARTS -->
+        <div class="TwoCharts">
+            <div class="TwoCharts-B200">
+                <p class="B200-part1">Billboard 200</p>
+                <div class="B200-part B200-part2"></div>
+                <div class="B200-part B200-part3"></div>
+                <div class="B200-part B200-part4"></div>
+                <button class="B200-part5">
+                    VIEW CHART
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="TwoCharts-BG200">
+                <p class="BG200-part1">
+                    Billboard Global 200
+                </p>
+                <div class="BG200-part BG200-part2"></div>
+                <div class="BG200-part BG200-part3"></div>
+                <div class="BG200-part BG200-part4"></div>
+                <button class="BG200-part5">
+                    VIEW CHART
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>            </div>
+        </div>
+        <!-- ARTIST -->
+        <div class="artist">
+            <div class="artist-part1">
+                <p class="title3">ARTIST 100</p>
+                <button class="artist-part1-button">
+                    VIEW CHART
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="artist-part2">
+                <div class="artist-part2-rank"></div>
+                <div class="artist-part2-rank"></div>
+                <div class="artist-part2-rank"></div>
+                <div class="artist-part2-rank"></div>
+                <div class="artist-part2-rank"></div>
+            </div>
+        </div>
+        <!-- NEWS -->
+    </div>
     <!-- NEWS -->
-    <div class="news"></div>
+    <h class="title title2">CHARTS BEAT</h>
+    <div class="news">
+        <div class="news-part news-part1">
+            <div class="HotNews HotNews1"></div>
+            <div class="HotNews HotNews2"></div>
+            <div class="HotNews HotNews3"></div>
+            <div class="HotNews HotNews4"></div>
+        </div>
+        <div class="news-part news-part2">
+            <p class="feedback-title feedback-title1">LEAVE YOUR FEEDBACKS</p>
+            <p class="feedback-title feedback-title2">Your feedbacks for a better billboard</p>
+            <div class="feedback-form"></div>
+            <button class="feedback-button">Submit</button>
+        </div>
+    </div>
     <!-- FOOTER -->
     <div class="footer"></div>
 </body>

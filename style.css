@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    min-width: 900px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-part1 {
+    height: 75px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content:space-between;
+    padding-right:50px;
+}
+
+.header-part-e2{
+    font-size:x-large;
+    width: 850px;
+    height: 65px;
+    padding-left: 550px;
+}
+
+.header-part2 {
+    height: 75px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.header-part-f1{
+    cursor: pointer;
+}
+
+.background{
+    background-image: url ("");
+    margin-top: 50px;
+    margin-bottom: 90px;;
+    border: 5px solid blue;
+    height: 1525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1{
+    border: 2px solid red;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    width: 60%;
+    height: 65px;
+}
+
+.chart100{
+    border: 2px solid green;
+    height: 50px;
+    width: 60%;
+    height: 690px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart100-part1{
+    border: 2px solid purple;
+    height: 50px;
+    width:100%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.chart100-part2{
+    border: 2px solid crimson;
+    height: 58%;;
+    width:100%;
+}
+
+.chart100-part3{
+    border: 2px solid cornflowerblue;
+    height: 32%;
+    width:100%;
+}
+
+.chart100-part4{
+    height: 20PX;
+    width:100%;
+    cursor: pointer;
+}
+
+.TwoCharts{
+    border: 2px solid brown;
+    height: 350px;
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.TwoCharts-B200{
+    border: 3px solid red;
+    width: 50%;
+}
+
+.B200-part{
+    height:28.2%;
+    border: 1px solid salmon;
+}
+
+.B200-part1{
+    width: 100%;
+    border: 2px solid green;
+    font-size: large;
+    height: 10%;
+}
+
+.B200-part5{
+    width: 100%;
+    cursor: pointer;
+}
+
+.TwoCharts-BG200{
+    border: 3px solid blue;
+    width: 50%;
+}
+
+.BG200-part{
+    height:28.2%;
+    border: 1px solid salmon;
+}
+
+.BG200-part1{
+    width: 100%;
+    border: 2px solid green;
+    font-size: large;
+    height: 10%;
+} 
+
+.BG200-part5{
+    width: 100%;
+    cursor: pointer;
+}
+
+.artist{
+    border: 2px solid blueviolet;
+    height: 150px;
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.artist-part1{
+    border: 2px solid brown;
+    width: 20%;
+}
+
+.title3{
+    margin-top: 30px;
+    font-size: large;
+    padding: 5px;
+}
+
+.artist-part1-button{
+    cursor: pointer;
+    margin: 5px;
+    font-size: x-small;
+}
+
+.artist-part2{
+    border: 2px solid magenta;
+    width: 80%;
+    display: flex;
+}
+
+.title2{
+    border: 2px solid red;
+    text-align: center;
+    font-size: xx-large;
+    height: 65px;
+}
+
+.news{
+    margin-top: 50px;
+    border: 3px solid green;
+    height: 550px;
+    margin-bottom: 90px;
+    display: flex;
+}
+
+.news-part{
+    border: 2px solid slateblue;
+}
+
+.news-part1{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HotNews{
+    border: 2px solid firebrick;
+    height: 25%;
+}
+
+.news-part2{
+    width: 25%;
+    padding: 5px;
+}
+
+.feedback-title1{
+    height: 100px;
+    font-size: xx-large;
+    border: 1px solid salmon;
+    margin-top: 20px;
+}
+
+.feedback-title2{
+    font-size: medium;
+    border: 1px solid salmon;
+    margin-top: 20px;
+}
+
+.feedback-form{
+    border: 1px solid brown;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.feedback-button{
+    margin-left: 55px;
+}
+
+.footer{
+    border: 3px solid brown;
+    height: 250px;
+}
