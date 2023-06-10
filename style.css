@@ -45,7 +45,9 @@ body {
 }
 
 .background{
-    background-image: url ("");
+    background-image: url(https://i.pinimg.com/564x/e9/86/e3/e986e36141aca2014c113e4c886a4b43.jpg);
+    background-size: cover;
+    background-repeat: none;
     margin-top: 50px;
     margin-bottom: 90px;;
     border: 5px solid blue;
@@ -194,9 +196,10 @@ body {
 .news{
     margin-top: 50px;
     border: 3px solid green;
-    height: 550px;
+    height: 775px;
     margin-bottom: 90px;
     display: flex;
+    background-color: lightgray;
 }
 
 .news-part{
@@ -212,8 +215,72 @@ body {
 .HotNews{
     border: 2px solid firebrick;
     height: 25%;
+    background-color: white;
 }
-
+.HotNews1{
+    display: flex;
+}
+.HotNews1-img{
+    background-image: url("https://www.billboard.com/wp-content/uploads/2023/05/ice-spice-taylor-swift-billboard-1548.jpg");
+    background-size: cover;
+    background-repeat: none;
+    width: 35%;
+}
+.HotNews1-content{
+    width: 65%;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+.li2{
+    font-size: x-small;
+}
+.li3{
+    margin-top: 45px;
+}
+.HotNews2{
+    margin-top: 20px;
+    display: flex;
+}
+.HotNews2-img{
+    background-image: url(https://cdn-3.motorsport.com/images/amp/2QzJ5ZvY/s6/champion-alex-palou-chip-ganas.jpg);
+    background-size: cover;
+    background-repeat: none;
+    width: 35%;
+}
+.HotNews2-content{
+    width: 65%;
+    padding: 20px;
+}
+.HotNews3{
+    margin-top: 20px;
+    display: flex;
+}
+.HotNews3-img{
+    background-image: url(https://media.glamour.com/photos/64505aa5c55d52f133987426/master/w_2560%2Cc_limit/GettyImages-1486934003.jpg);
+    background-size: cover;
+    background-repeat: none;
+    width: 35%;
+}
+.HotNews3-content{
+    width: 65%;
+    padding: 20px;
+}
+.HotNews4{
+    margin-top: 20px;
+    display: flex;
+}
+.HotNews4-img{
+    background-image: url(https://www.lifehacker.com.au/wp-content/uploads/sites/4/2022/11/16/GettyImages-1389411677.jpg?quality=80&w=1280);
+    background-size: cover;
+    background-repeat: none;
+    width: 35%;
+}
+.HotNews4-content{
+    width: 65%;
+    padding: 20px;
+}
 .news-part2{
     width: 25%;
     padding: 5px;
@@ -239,7 +306,8 @@ body {
 }
 
 .feedback-button{
-    margin-left: 55px;
+    margin-left: 215px;
+    margin-top: 15px;
 }
 
 .footer{
