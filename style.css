@@ -59,7 +59,10 @@ body {
 
 .title1{
     border: 2px solid red;
-    text-align: center;
+    background-color: rgb(255,255,255,0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
     font-size: xx-large;
     margin-top: 50px;
     width: 60%;
@@ -75,6 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(255,255,255,0.95);
 }
 
 .chart100-part1{
@@ -83,12 +87,69 @@ body {
     width:100%;
     text-align: center;
     font-size: x-large;
+    align-items: center;
 }
 
 .chart100-part2{
     border: 2px solid crimson;
     height: 58%;;
     width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    width: 30%;
+    height: 60%;
+    border: 1px solid red;
+
+}
+
+.song_info{
+    background-color: white;
+    width: 100%;
+    height: 60%;
+    display: flex;
+
+}
+
+.week_info{
+    background-color: lightgrey;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;;
+}
+
+.detail{
+    padding: 15px;
+    font-size: small;
+}
+
+.img1{
+    border: 1px solid red;
+    width: 60px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.lastweek{
+    text-align: center;
+}
+
+.weeksatno1{
+    text-align: center;
+}
+
+.weeksonchart{
+    text-align: center;
+}
+
+.title_small{
+    font-size: xx-small;
 }
 
 .chart100-part3{
@@ -126,6 +187,8 @@ body {
     border: 2px solid green;
     font-size: large;
     height: 10%;
+    text-align: center;
+    color: white;
 }
 
 .B200-part5{
@@ -148,6 +211,8 @@ body {
     border: 2px solid green;
     font-size: large;
     height: 10%;
+    text-align: center;
+    font-weight: 500;
 } 
 
 .BG200-part5{
@@ -199,7 +264,6 @@ body {
     height: 775px;
     margin-bottom: 90px;
     display: flex;
-    background-color: lightgray;
 }
 
 .news-part{
@@ -284,6 +348,7 @@ ul{
 .news-part2{
     width: 25%;
     padding: 5px;
+    margin-left: 25px;;
 }
 
 .feedback-title1{
@@ -313,4 +378,5 @@ ul{
 .footer{
     border: 3px solid brown;
     height: 250px;
+    background-color: black;
 }

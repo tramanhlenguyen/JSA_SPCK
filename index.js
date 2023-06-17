@@ -99,8 +99,23 @@ let data = {
         }
     }
 }
-console.log(data.content['1']);
+
+console.log(data.content['1'].rank);
 console.log(data.content['2']);
 console.log(data.content['3']);
+
+let rank = document.getElementsByClassName("rank");
+let detail = document.getElementsByClassName("detail-icon");
+
+for (let i = 1; i <= rank.length; i++) {
+    rank[i - 1].innerHTML = data.content[i].rank
+    if (data.content[i].detail == "same") {
+        detail[i - 1].innerHTML = '<i class="fa-solid fa-circle-arrow-right"></i>';
+    } else if (data.content[i].detail == "down") {
+        detail[i - 1].innerHTML = '<i class="fa-solid fa-circle-arrow-down"></i>';
+    } else {
+        detail[i - 1].innerHTML = '<i class="fa-solid fa-circle-arrow-up"></i>';
+    }
+}
 
 

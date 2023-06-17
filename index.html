@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BILLBOARD API</title>
 </head>
+
 <body>
     <!-- HEADER -->
     <div class="header">
@@ -15,7 +19,7 @@
             <a class="header-part-e header-part-e1">
             </a>
             <a class="header-part-e2">
-                BILLBOARD API 
+                BILLBOARD API
             </a>
             <div class="header-part-e header-part-e3">
                 <button class="button">LOGIN</button>
@@ -37,7 +41,93 @@
         <h class="title title1"><b>BILLBOARD CHARTS</b></h>
         <div class="chart100">
             <h class="chart100-part1"><b>Billboard Hot 100</b></h>
-            <div class="chart100-part2"></div>
+            <div class="chart100-part2" id="chart100-part2">
+                <!-- hiển thị bằng js -->
+                <div class="content">
+                    <div class="song_info">
+                        <img class="img1"
+                            src="https://st.depositphotos.com/2218212/2938/i/450/depositphotos_29387653-stock-photo-facebook-profile.jpg">
+                        <div class="detail">
+                            <h class="rank">1</h>
+                            <span class="detail-icon"></span>
+                            <ul>
+                                <li class="title"><b>Last Night</b></li>
+                                <li class="artist*">Morgan Wallen</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week_info">
+                        <div class="lastweek*">
+                            <h class="title_small">LAST WEEK</h>
+                            <h2 class="lastweek">1</h2>
+                        </div>
+                        <div class="weeksatno1*">
+                            <h class="title_small">WEEKS AT NO.1</h>
+                            <h2 class="weeksatno1">9</h2>
+                        </div>
+                        <div class="weeksonchart*">
+                            <h class="title_small">WEEKS ON CHART</h>
+                            <h2 class="weeksonchart">18</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="song_info">
+                        <img class="img1"
+                            src="https://st.depositphotos.com/2218212/2938/i/450/depositphotos_29387653-stock-photo-facebook-profile.jpg">
+                        <div class="detail">
+                            <h class="rank">2</h>
+                            <span class="detail-icon"></span>
+                            <ul>
+                                <li class="title"><b>Last Night</b></li>
+                                <li class="artist*">Morgan Wallen</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week_info">
+                        <div class="lastweek*">
+                            <h class="title_small">LAST WEEK</h>
+                            <h2 class="lastweek">1</h2>
+                        </div>
+                        <div class="weeksatno1*">
+                            <h class="title_small">WEEKS AT NO.1</h>
+                            <h2 class="weeksatno1">9</h2>
+                        </div>
+                        <div class="weeksonchart*">
+                            <h class="title_small">WEEKS ON CHART</h>
+                            <h2 class="weeksonchart">18</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="song_info">
+                        <img class="img1"
+                            src="https://st.depositphotos.com/2218212/2938/i/450/depositphotos_29387653-stock-photo-facebook-profile.jpg">
+                        <div class="detail">
+                            <h class="rank">3</h>
+                            <span class="detail-icon"></span>
+                            <ul>
+                                <li class="title">Last Night</li>
+                                <li class="artist*">Morgan Wallen</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="week_info">
+                        <div class="lastweek*">
+                            <h class="title_small">LAST WEEK</h>
+                            <h2 class="lastweek">1</h2>
+                        </div>
+                        <div class="weeksatno1*">
+                            <h class="title_small">WEEKS AT NO.1</h>
+                            <h2 class="weeksatno1">9</h2>
+                        </div>
+                        <div class="weeksonchart*">
+                            <h class="title_small">WEEKS ON CHART</h>
+                            <h2 class="weeksonchart">18</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="chart100-part3"></div>
             <button class="chart100-part4">
                 VIEW CHART
@@ -66,7 +156,8 @@
                 <button class="BG200-part5">
                     VIEW CHART
                     <i class="fa-solid fa-chevron-right"></i>
-                </button>            </div>
+                </button>
+            </div>
         </div>
         <!-- ARTIST -->
         <div class="artist">
@@ -94,42 +185,45 @@
             <div class="HotNews HotNews1">
                 <div class="HotNews1-img"></div>
                 <div class="HotNews1-content">
-                <ul>
-                    <li class="li1">Taylor Swift Brings Out Surprise Guest Ice Spice for 'Karma' Remix Live Debut</li>
-                    <li class="li2 li3">By Joe Lyn</li>
-                    <li class="li2">3 hrs ago</li>
-                </ul>
+                    <ul>
+                        <li class="li1">Taylor Swift Brings Out Surprise Guest Ice Spice for 'Karma' Remix Live Debut
+                        </li>
+                        <li class="li2 li3">By Joe Lyn</li>
+                        <li class="li2">3 hrs ago</li>
+                    </ul>
                 </div>
             </div>
             <div class="HotNews HotNews2">
                 <div class="HotNews2-img"></div>
                 <div class="HotNews2-content">
-                <ul>
-                    <li class="li1">How To Watch Indy 500 on Peacock: Stream from Anywhere With This Limited Deal</li>
-                    <li class="li2 li3">By Latifah Muhammad</li>
-                    <li class="li2">1 hrs ago</li>
-                </ul>
+                    <ul>
+                        <li class="li1">How To Watch Indy 500 on Peacock: Stream from Anywhere With This Limited Deal
+                        </li>
+                        <li class="li2 li3">By Latifah Muhammad</li>
+                        <li class="li2">1 hrs ago</li>
+                    </ul>
                 </div>
             </div>
             <div class="HotNews HotNews3">
                 <div class="HotNews3-img"></div>
                 <div class="HotNews3-content">
-                <ul>
-                    <li class="li1">Met Gala 2023: Kim Kardashian Returns To The Met In Pearl-Adorned Naked Dress</li>
-                    <li class="li2 li3">By Dimitrios Kambouris</li>
-                    <li class="li2">2 hrs ago</li>
-                </ul>
+                    <ul>
+                        <li class="li1">Met Gala 2023: Kim Kardashian Returns To The Met In Pearl-Adorned Naked Dress
+                        </li>
+                        <li class="li2 li3">By Dimitrios Kambouris</li>
+                        <li class="li2">2 hrs ago</li>
+                    </ul>
                 </div>
             </div>
             <div class="HotNews HotNews4">
                 <div class="HotNews4-img"></div>
                 <div class="HotNews4-content">
-                <ul>
-                    <li class="li1">Grammy Awards 2023: Everything to Know About the Nominees, Host and More
-                    </li>
-                    <li class="li2 li3">By Meredith Narnino</li>
-                    <li class="li2">2 hrs ago</li>
-                </ul>
+                    <ul>
+                        <li class="li1">Grammy Awards 2023: Everything to Know About the Nominees, Host and More
+                        </li>
+                        <li class="li2 li3">By Meredith Narnino</li>
+                        <li class="li2">2 hrs ago</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -141,7 +235,10 @@
         </div>
     </div>
     <!-- FOOTER -->
-    <div class="footer"></div>
+    <div class="footer">
+
+    </div>
     <script src="index.js"></script>
 </body>
+
 </html>
